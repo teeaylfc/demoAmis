@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login Fakebook</title>
+    <link href="../CSS/index.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="header">
+        <div id="logo"><p>AMIS</p></div>
+        <div id="email">
+            <div>Email hoặc số điện thoại</div>
+            <input type="text" class="ip fill2" id="txtUserName" name="name" value="" />
+        </div>
+        <div id="pass">
+            <div>Mật khẩu</div>
+            <input type="password" class="ip fill2" id="txtPassword" name="name" value="" /><br />
+            <a href="#">Quên tài khoản</a>
+        </div>
+        <div id="btn"><input type="button" id="btnLogin" name="name" value="Đăng nhập" /></div>
+
+    </div>
+    <div id="main">
+        <div id="main-left">
+            <div id="title1"><p>Fakebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống của bạn</p></div>
+            <div id="pic"> <img src="../IMG/img1.JPG" alt="Alternate Text" /> </div>
+        </div>
+        <div id="main-right">
+            <div id="title2">
+                <h1>Đăng kí</h1>
+                <p>Luôn miễn phí</p>
+            </div>
+            <div id="inform">
+                <input class="ip1 fill" type="text" name="name" value="" placeholder="Họ" />
+                <input class="ip1 fill" type="text" name="name" value="" placeholder="Tên" /><br />
+                <input class="ip2 fill" id="userNameReg" type="text" name="name" value="" placeholder="Nhập tên tài khoản" /><br />
+                <input class="ip2 fill" id="passwordReg" type="password" name="name" value="" placeholder="Mật khẩu mới" />
+                <p>Ngày sinh</p>
+                <input class="ip3 fill " type="date" name="name" value="" /><br />
+                <input type="radio" name="gt" value="Nam" checked />Nam
+                <input type="radio" name="gt" value="Nu" />Nữ <br />
+                <button class="btnreg">Đăng kí</button>
+
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="list">
+            <ul>
+                <li>Tiếng Việt</li>
+                <li><a href="#">English(UK)</a></li>
+                <li><a href="#">中文(台灣)</a></li>
+                <li><a href="#">한국어</a></li>
+                <li><a href="#">日本語</a></li>
+                <li><a href="#">Français (France)</a></li>
+                <li><a href="#">Português (Brasil)</a></li>
+            </ul>
+        </div>
+        <div id="aut" style="color:red">@TuanAnhPTIT</div>
+    </div>
+    <script src="../JS/jquery-3.3.1.min.js"></script>
+    <script src="../JS/jquery-ui.min.js"></script>
+    <script src="../JS/login.js"></script>
+</body>
+</html>

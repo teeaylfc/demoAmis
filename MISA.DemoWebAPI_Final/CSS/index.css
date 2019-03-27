@@ -1,0 +1,394 @@
+﻿body {
+    font-family: sans-serif;
+    background-color: #EAEDF4;
+    color : black;
+    font-size : 13px;
+}
+#header {
+    height: 89px;
+    width: 100%;
+    background: #3B5998;
+    color :white;
+}
+#logo{
+    width : 50%;
+    height : 100%;
+    float :left;
+    font-size : 30px;
+    font-weight :bold;
+}
+#logo p{
+    margin-left : 30%;
+    padding-top : 10px;
+}
+#email{
+    float:left;
+    width : 15%;
+    height : 100%;
+    font-size :13px;
+    padding-top : 10px;
+}
+#pass{
+    float :left;
+    width :15%;
+    height : 100%;
+    font-size :13px;
+    padding-top : 10px;
+    
+}
+#btn {
+    float: left;
+    padding-top: 27px;
+
+}
+#btn>input {
+     border : 1px solid black;
+     margin-top: 5px;
+     background: #365899;
+     color: white;
+     height: 24px;
+     width: 80px;
+    }
+#btn>input:hover{
+    background-color : antiquewhite;
+    color : blue;
+ }
+.ip {
+   padding-left : 5px;
+   margin-top : 6px;
+   width : 150px;
+   height : 20px;
+   border : 1px solid black;
+   margin-bottom : 8px;
+}
+#header a{
+    text-decoration : none;
+    color :gray;
+
+}
+#header a:hover{
+    color : red;
+}
+#main{
+    width: 100%;
+    padding-bottom : 100px;
+}
+#main-left{
+    width : 50%;
+    float :left;
+}
+#main-left>div{
+    margin-left:13%;
+}
+#title1{
+    font-size : 20px;
+    color :darkblue;
+}
+#main-right{
+    width :40%;
+    float :left;
+}
+.ip1 {
+    width: 190px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.ip2 {
+    width: 390px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    font-size : 18px;
+}
+.ip3 {
+    width: 170px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+#inform button {
+    width: 194px;
+    height: 39px;
+    background: #67A052;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-bottom : 100px;
+    margin-top :30px;
+}
+    #inform button:hover {
+        background-color: #8db77c;
+    }
+#footer {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+
+}
+#list{
+    margin-top : 30px;
+}
+#list ul{
+    text-align:center;
+    list-style :none;
+
+}
+#list ul li{
+    margin-left :20px;
+    display : inline-table;
+}
+#list ul li a {
+    text-decoration: none;
+}
+#list ul li a:hover{
+    text-decoration :underline;
+    }
+.borderred{
+    border : 1px solid red;
+}
+/*kết thúc login*/
+#headerIndex{
+  position : fixed;
+  width :100%;
+  height : 44px;
+  background-color : #355dbd;
+}
+#headerIndex>img {
+    margin : 5px 0 0 75px;
+   
+}
+#headerRight{
+    width : 30%;
+   height :100%;
+   float : right;
+}
+.dropdown-toggle{
+    color: white;
+    font-size: 13px;
+}
+.dropdown-menu {
+    color: white;
+    font-size: 13px;
+    margin-top: 9px;
+    margin-left: -106px;
+    padding-left: 0px;
+}
+.dropdown-menu li{
+    margin-bottom : 7px;
+}
+.btn-group > button {
+    background-color: #355DBD;
+    width: 54px;
+    height: 28px;
+    border-radius: 50px;
+}
+.headIcon {
+    margin-top:10px;
+    font-size: 18px;
+    color: #c3c6cc;
+    margin-left: 7px;
+}
+.headIcon:hover{
+    color : white;
+    cursor :pointer;
+    font-size:18px;
+}
+.mydrop {
+    top: 10px;
+    left: -110px;
+}
+#mainIndex {
+    height :2000px;
+    width: 100%;
+    padding-top: 50px;
+    color: black;
+    background-color: #EAEBEF;
+}
+
+#mainApp{
+    position : fixed;
+    width : 300px;
+    float : left;
+    min-height : 100px;
+    padding-left : 80px;
+    margin-right : 20px;
+}
+#mainIndex ul li{
+    list-style : none;
+
+}
+#avatar img{
+    width : 40px;
+    
+}
+#avatarStatus{
+    width : 40px;
+    margin-top : 4px;
+}
+#CreatedDate{
+    color : black;
+    font-size : 12px;
+    margin-left : 50px;
+    margin-top : 5px;
+}
+#avatar ul {
+    margin-top: -37px;
+    margin-left: 10px;
+}
+#listApp ul li {
+    padding-top :5px;
+    margin-left: -40px;
+    margin-top: 10px;
+    width: 190px;
+    height: 30px;
+    border-radius: 5px
+}
+#listApp ul li a {
+    margin-left : 8px;
+    padding-top :5px;
+    text-decoration: none;
+}
+#listApp ul li:hover {
+    background-color: white;
+    color: black;
+}
+#listApp ul li img{
+    margin-right : 10px;
+}
+#mainContent{
+    margin-left : 300px;
+    height :3000px;
+    flex :1;
+    margin-right :10px;
+    border-radius : 5px;
+    width : 660px;
+    float :left;
+}
+#mainNoti {
+    height: 3000px;
+    border-radius: 5px;
+    width: 310px;
+    float: left;
+    margin-left: 666px;
+}
+#postStatus {
+    border: 0.5px solid #d7d9e0;
+    background-color: white;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+#tt {
+    margin-bottom: 20px;
+    border-bottom: solid 1px #EEEFF0;
+}
+#postStatus h6 {
+    margin-left: 10px;
+    padding-top: 10px;
+    color: blue;
+    margin-bottom: 0px;
+    width: 95px;
+    height: 40px;
+    border-bottom: 1px blue solid;
+}
+#postEdit {
+    padding-left: 7px;
+    padding-top : 5px;
+    width: 90%;
+    margin-left: 2%;
+    height: 80px;
+    border: none;
+    border-bottom: solid 1px #EEEFF0;
+}
+#btnSendStatus{
+    width:60px;
+    height :30px;
+    background-color: blue;
+    color  :white;
+    border: none;
+    border-radius: 3px;
+    float:right;
+    margin-right : 40px;
+    margin-top: 10px;
+}
+#newsFeed {
+    margin-bottom : 30px;
+    border: 0.5px solid #d7d9e0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: white;
+}
+#newsFeed h6 {
+        margin: -25px auto auto 50px;
+    }
+.likeAction{
+    color : blue;
+}
+#contentStatus {
+    border-bottom: 1px solid #EEEFF0;
+}
+#avatarStatus{
+    border-radius : 50%;
+}
+#txtContent{
+    font-size :14px;
+    border: none;
+    width: 85%;
+    height: 150px;
+    margin-left: 7%;
+    margin-top: 0px;
+}
+#likeCount{
+    margin-top : 20px;
+}
+#likeCount ul li{
+    display : inline-table;
+
+}
+#iconLike{
+    font-size : 18px;
+    color :gray;
+    padding-bottom : 5px;
+    margin-right : 400px;
+
+}
+#iconLike:hover{
+    cursor : pointer;
+    color :blue;
+}
+#comment {
+    margin-left: -10px;
+    width: 101.5%;
+    background-color: #EAEDF4;
+}
+#commentBy{
+    margin-left : 20px;
+}
+#commentBy > p {
+    margin-left : 55px;
+    margin-top : 5px;
+}
+#writeComment {
+    width : 100%;
+    height : 50px;
+    }
+#txtWriteComment {
+    background-color: #EAEBEF;
+    padding-left: 8px;
+    height: 42px;
+    border: none;
+    width: 90%;
+    border-radius: 5px;
+}

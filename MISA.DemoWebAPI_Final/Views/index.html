@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet" />
+       <!-- Optional theme -->
+    
+    <link href="../CSS/fontawesome.min.css" rel="stylesheet" />
+    <link href="../CSS/index.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="headerIndex">
+        <img class="" src="../IMG/logo1.png" alt="Alternate Text" />
+        <div id="headerRight">
+            <ul>
+                <li style="display:inline-table"><a href="#"><span class="glyphicon glyphicon-cog headIcon"></span></a></li>
+                <li style="display:inline-table"><a href="#"><span class="glyphicon glyphicon-question-sign headIcon"></span></a></li>
+                <li style="display:inline-table"><a href="#"><span class="glyphicon glyphicon-bell headIcon"></span></a></li>
+                <li style="display:inline-table ; "><a href="#"><img style="border-radius : 100%;width :40px; margin-left:10px ;margin-top:-4px;" src="../IMG/LTA.jpg" alt="Alternate Text" /></a></li>
+                <li style="display:inline-table">
+                    <div class="btn-group" >
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="color:white">
+                            Anh
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li class=""><a href="#">Trang cá nhân</a></li>
+                            <li class=""><a href="#">Bạn bè</a></li>
+                            <li class=""><a href="#">Hội nhóm</a></li>
+                            <li class=""><a href="#">Fanpage</a></li>
+                            <li class=""><a href="/Views/login.html"  style="color:red;">Đăng xuất</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="mainIndex">
+        <div id="mainApp">
+            <div id="avatar">
+                <img src="../IMG/LTA.jpg" alt="Alternate Text" style="border-radius : 100%;margin-top:10px;" />
+                <ul>
+                    <li><h5 style="color:blue;">Lê Tuấn Anh</h5></li>
+                    <li><a href="#">Xem trang cá nhân</a></li>
+                </ul>
+            </div>
+            <h7 style="margin-left:10px;"><b>Ứng dụng chính</b></h7>
+            <div id="listApp">
+                <ul>
+                    <li><a href="#"><img src="../IMG/logo2.png" alt="Alternate Text" />Tin tức</a></li>
+                    <li><a href="#"><img src="../IMG/logo3.png" alt="Alternate Text" />Kế toán</a></li>
+                    <li><a href="#"><img src="../IMG/logo4.png" alt="Alternate Text" />Bán hàng</a></li>
+                    <li><a href="#"><img src="../IMG/logo5.png" alt="Alternate Text" />Nhân sự</a></li>
+                    <li><a href="#"><img src="../IMG/logo6.png" alt="Alternate Text" />Tài liệu</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div id="mainContent">
+            <div id="postStatus">
+                <div id="tt"><h6>Chia sẻ thông tin</h6></div>
+                <textarea id="postEdit" placeholder="Bạn muốn viết gì"></textarea><br />
+                <input id="btnSendStatus" type="button" name="name" value="Gửi" />
+            </div>
+            <div  id="allPosts">
+                <div id="newsFeed">
+                    <img id="avatarStatus" src="../IMG/EmployeeImage.png" />
+                    <a href="#"><h6>Lê Tuấn Anh</h6></a>
+                    <p id="CreatedDate">ds3222222222222</p>
+                    <div id="contentStatus">
+                        <textarea id="txtContent" readonly="true">
+                        </textarea>
+                    </div>
+                    <div id="likeCount">
+                        <ul>
+                            <li id="iconLike"><span class="glyphicon glyphicon-thumbs-up"></span>Thích</li>
+                            <li style="margin-right:5px;">1 Thích</li>
+                            <li>3 Bình luận</li>
+                        </ul>
+
+                    </div>
+                    <div id="allComment">
+                        <div id="comment">
+                            <div id="commentBy">
+                                <img id="avatarStatus" src="../IMG/LTA.jpg" />
+                                <a href="#"><h6>Lê Tuấn Anh</h6></a>
+                                <p>Sao thế b?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="writeComment">
+                        <input id="txtWriteComment" type="text" name="name" value="" placeholder="Viết bình luận...." />
+                        <input type="button" class="btn btn-primary" name="name" value="Gửi" />
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    <script src="../JS/jquery-3.3.1.min.js"></script>
+    <script src="../JS/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/post.js"></script>
+    <script src="../JS/index.js"></script>
+</body>
+</html>

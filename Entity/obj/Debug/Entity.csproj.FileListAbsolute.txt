@@ -1,0 +1,12 @@
+C:\Users\nvmanh.FRESHER\Source\repos\MISA.DemoWebAPI_Final\Entity\bin\Debug\Entity.dll
+C:\Users\nvmanh.FRESHER\Source\repos\MISA.DemoWebAPI_Final\Entity\bin\Debug\Entity.pdb
+C:\Users\nvmanh.FRESHER\Source\repos\MISA.DemoWebAPI_Final\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\nvmanh.FRESHER\Source\repos\MISA.DemoWebAPI_Final\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\nvmanh.FRESHER\Source\repos\MISA.DemoWebAPI_Final\Entity\obj\Debug\Entity.dll
+C:\Users\nvmanh.FRESHER\Source\repos\MISA.DemoWebAPI_Final\Entity\obj\Debug\Entity.pdb
+D:\C#\MISA.DemoWebAPI_Final\Entity\bin\Debug\Entity.dll
+D:\C#\MISA.DemoWebAPI_Final\Entity\bin\Debug\Entity.pdb
+D:\C#\MISA.DemoWebAPI_Final\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+D:\C#\MISA.DemoWebAPI_Final\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+D:\C#\MISA.DemoWebAPI_Final\Entity\obj\Debug\Entity.dll
+D:\C#\MISA.DemoWebAPI_Final\Entity\obj\Debug\Entity.pdb
